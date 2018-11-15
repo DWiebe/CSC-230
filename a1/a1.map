@@ -1,0 +1,14 @@
+
+AVRASM ver. 2.1.42  H:\CSC 230\a1\modulo.asm Sun Feb 04 14:05:58 2018
+
+
+DEF  MH           r17
+DEF  ML           r16
+DEF  NH           r19
+DEF  NL           r18
+EQU  M            00004255
+EQU  N            0000001d
+CSEG C            00000008
+CSEG SUBTRACT     00000009
+CSEG STOP         0000000f
+DSEG RESULT       00000200
